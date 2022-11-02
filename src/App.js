@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <section className="section1"> 
+          <h1 className="scroll" data-rate=".4" data-direction="virtical">Section-1</h1> 
+        </section>
+        <section className="section2"> 
+          <h1 className="scroll" data-rate=".3" data-direction="virtical">Section-2</h1> 
+        </section>
+        <section className="section3"> 
+          <h1 className="scroll" data-rate=".2" data-direction="virtical">Section-3</h1> 
+        </section>
     </div>
   );
 }
